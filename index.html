@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRANSTORE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container site-header__content">
+            <a class="site-header__brand" href="#inicio" aria-label="FRANSTORE, ir al inicio">FRANSTORE</a>
+            <nav class="site-header__navigation" aria-label="Navegación principal">
+                <a class="site-header__link" href="#inicio">Inicio</a>
+                <a class="site-header__link" href="#coleccion">Colección</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main" id="inicio">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero__layout">
+                <div class="hero__content">
+                    <p class="eyebrow">Nueva temporada · FRANSTORE</p>
+                    <h1 class="hero__title" id="hero-title">Tu estilo, <span>a tu manera.</span></h1>
+                    <p class="hero__description">
+                        Piezas versátiles para acompañarte todos los días. Encuentra eso que
+                        estabas buscando y hazlo parte de tu estilo.
+                    </p>
+                    <a class="button button--primary" href="#coleccion">Explorar colección</a>
+                </div>
+
+                <div class="hero__art" aria-hidden="true">
+                    <div class="hero__sun"></div>
+                    <div class="hero__shape hero__shape--back"></div>
+                    <div class="hero__shape hero__shape--front"></div>
+                    <span class="hero__art-label">FRANSTORE<br>NUEVA COLECCIÓN</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="collection" id="coleccion" aria-labelledby="collection-title">
+            <div class="container">
+                <div class="collection__heading">
+                    <div>
+                        <p class="eyebrow">Encuentra tu favorito</p>
+                        <h2 class="collection__title" id="collection-title">Explora la colección</h2>
+                    </div>
+                    <p class="collection__description">Básicos con personalidad, para cada momento.</p>
+                </div>
+
+                <div class="collection__grid">
+                    <article class="category-card category-card--everyday">
+                        <span class="category-card__number">01</span>
+                        <div class="category-card__copy">
+                            <h3 class="category-card__title">Para todos los días</h3>
+                            <p class="category-card__description">Comodidad que combina contigo.</p>
+                        </div>
+                    </article>
+                    <article class="category-card category-card--statement">
+                        <span class="category-card__number">02</span>
+                        <div class="category-card__copy">
+                            <h3 class="category-card__title">Piezas especiales</h3>
+                            <p class="category-card__description">Un detalle que cambia el look.</p>
+                        </div>
+                    </article>
+                    <article class="category-card category-card--essentials">
+                        <span class="category-card__number">03</span>
+                        <div class="category-card__copy">
+                            <h3 class="category-card__title">Nuevos esenciales</h3>
+                            <p class="category-card__description">Tus próximos favoritos están aquí.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__content">
+            <a class="site-footer__brand" href="#inicio" aria-label="FRANSTORE, volver al inicio">FRANSTORE</a>
+            <nav class="site-footer__navigation" aria-label="Navegación del pie de página">
+                <a class="site-footer__link" href="#inicio">Inicio</a>
+                <a class="site-footer__link" href="#coleccion">Colección</a>
+            </nav>
+            <p class="site-footer__copyright">&copy; 2026 FRANSTORE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
